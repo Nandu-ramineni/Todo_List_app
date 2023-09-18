@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+*{
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background-repeat: no-repeat; background-position: center;
+    height: 100vh;
+}
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+h1 {
+    text-align: center;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    margin-left: .5rem;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #EA1179;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+li:last-child {
+    margin-bottom: 0;
+}
+.delete{
+    background: #D80032;
+}
+.delete:hover{
+    background: #4CAF50;
+}
